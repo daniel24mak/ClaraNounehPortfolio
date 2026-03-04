@@ -35,7 +35,7 @@ export function startApp() {
   const mover = createMovementController({ controls, zones, colliders: worldColliders });
 
   // --- Ambient soundscape (loop) ---
-  const ambience = new Audio("/audio/museum_ambience_loop.mp3");
+  const ambience = new Audio('${import.meta.env.BASE_URL}audio/museum_ambience_loop.mp3');
   ambience.loop = true;
   ambience.volume = 0.28;
 
