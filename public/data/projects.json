@@ -1,0 +1,117 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Brand Identity: Aurora",
+      "year": "2026",
+      "type": "image",
+      "role": "Lead Designer",
+      "tools": ["Illustrator", "Photoshop", "InDesign"],
+      "description": "Aurora is a refined brand identity system inspired by gallery minimalism and atmospheric light gradients. The system balances bold typography with spacious layout logic to create timeless clarity.",
+
+      "moodboardNotes": "Research explored museum lighting, brutalist exhibition layouts, archival typography, celestial gradients, and restrained material palettes.",
+
+      "processNotes": "Began with monochrome logo sketches, developed modular grid systems, iterated typography scales, then refined color application and spatial rhythm.",
+
+      "thumbnail": "/images/artworks/project_01_thumbnail.jpg",
+
+      "gallery": {
+        "overview": [
+          "/images/artworks/project_01_full.jpg"
+        ],
+        "moodboard": [
+          "/images/artworks/p1_mood_01.jpg",
+          "/images/artworks/p1_mood_02.jpg",
+          "/images/artworks/p1_mood_03.jpg"
+        ],
+        "process": [
+          "/images/artworks/p1_process_01.jpg",
+          "/images/artworks/p1_process_02.jpg",
+          "/images/artworks/p1_process_03.jpg"
+        ]
+      },
+
+      "placement": {
+        "wall": "north",
+        "x": -3.5,
+        "y": 2.0
+      }
+    },
+
+    {
+      "id": "p2",
+      "title": "Poster Series: Transit",
+      "year": "2025",
+      "type": "image",
+      "role": "Graphic Designer",
+      "tools": ["InDesign", "After Effects", "Figma"],
+      "description": "Transit is a typographic poster series exploring motion, direction, and public infrastructure. The layouts emphasize speed and spatial rhythm through dynamic composition.",
+
+      "moodboardNotes": "Collected references from subway maps, kinetic typography experiments, Swiss grid systems, and large-scale signage design.",
+
+      "processNotes": "Created motion-driven layouts first, then translated them into static compositions. Iterated through 30+ typographic arrangements before finalizing the series.",
+
+      "thumbnail": "/images/artworks/project_02_thumbnail.jpg",
+
+      "gallery": {
+        "overview": [
+          "/images/artworks/project_02_full.jpg"
+        ],
+        "moodboard": [
+          "/images/artworks/p2_mood_01.jpg",
+          "/images/artworks/p2_mood_02.jpg",
+          "/images/artworks/p2_mood_03.jpg"
+        ],
+        "process": [
+          "/images/artworks/p2_process_01.jpg",
+          "/images/artworks/p2_process_02.jpg",
+          "/images/artworks/p2_process_03.jpg"
+        ]
+      },
+
+      "placement": {
+        "wall": "north",
+        "x": 3.5,
+        "y": 2.0
+      }
+    },
+
+    {
+      "id": "p3",
+      "title": "3D Sculpture: Kinetic Form",
+      "year": "2026",
+      "type": "model",
+      "role": "3D Designer",
+      "tools": ["Blender", "Substance Painter"],
+      "description": "Kinetic Form is a sculptural study in motion and balance. Designed to be experienced physically in space, the piece explores curved tension and metallic material contrast.",
+
+      "moodboardNotes": "Material references included brushed metal, museum pedestal displays, soft spotlight falloff, and minimalist object presentation.",
+
+      "processNotes": "Blockout geometry → refine silhouette → UV unwrap → texture baking → material polish → lighting test renders.",
+
+      "asset": "/models/artworks/sculpture_01.glb",
+      "scale": 3.0,
+      "rotateSpeed": 6,
+
+      "gallery": {
+        "overview": [
+          "/images/artworks/p3_overview_01.jpg"
+        ],
+        "moodboard": [
+          "/images/artworks/p3_mood_01.jpg",
+          "/images/artworks/p3_mood_02.jpg"
+        ],
+        "process": [
+          "/images/artworks/p3_process_01.jpg",
+          "/images/artworks/p3_process_02.jpg"
+        ]
+      },
+
+      "placement": {
+        "x": 0,
+        "z": -1.5,
+        "ry": 20
+      }
+    }
+  ]
+}
